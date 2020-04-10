@@ -9,3 +9,11 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+
+
+# Helper Method
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
+end
