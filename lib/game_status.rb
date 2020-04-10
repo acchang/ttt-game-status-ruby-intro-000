@@ -18,6 +18,14 @@ WIN_COMBINATIONS = [
 def won?(board)
 #  returns falsey for an empty board (FAILED - 1)
 #  returns falsey for a draw
+#  returns an array of matching indexes for a top row win
+#  returns an array of matching indexes for a middle row win
+#  returns an array of matching indexes for a bottom row win
+#  returns an array of matching indexes for a left column win
+#  returns an array of matching indexes for a middle column win
+#  returns an array of matching indexes for a right column win
+#  returns an array of matching indexes for a left diagonal win
+#  returns an array of matching indexes for a right diagonal win
 WIN_COMBINATIONS.each {|win_combo|
     index_0 = win_combo[0]
     index_1 = win_combo[1]
