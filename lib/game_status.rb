@@ -27,11 +27,12 @@ def won?(board)
 #  returns an array of matching indexes for a left diagonal win
 #  returns an array of matching indexes for a right diagonal win
 WIN_COMBINATIONS.each do |win_combo|
+  puts "There are |win_combo| letters in #{color}"
     index_0 = win_combo[0]
     index_1 = win_combo[1]
     index_2 = win_combo[2]
   end
-  
+
     position_1 = board[index_0]
     position_2 = board[index_1]
     position_3 = board[index_2]
