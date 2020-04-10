@@ -13,6 +13,6 @@ WIN_COMBINATIONS = [
 def won?(board)
 #  returns falsey for an empty board (FAILED - 1)
 if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-false 
+false
 end
 end
