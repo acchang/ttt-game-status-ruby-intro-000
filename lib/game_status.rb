@@ -11,11 +11,8 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-WIN_COMBINATIONS
-
-
-# Helper Method
-def position_taken?(board, index)
-  !(board[index].nil? || board[index] == " ")
+#  returns falsey for an empty board (FAILED - 1)
+if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+false 
 end
 end
