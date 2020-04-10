@@ -14,7 +14,7 @@ def won?(board)
 #  returns falsey for an empty board (FAILED - 1)
 #  returns falsey for a draw
 if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-elsif condition = !WIN_COMBINATIONS
+elsif board = !WIN_COMBINATIONS
 false
 end
 end
