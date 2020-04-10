@@ -26,7 +26,7 @@ def won?(board)
 #  returns an array of matching indexes for a right column win
 #  returns an array of matching indexes for a left diagonal win
 #  returns an array of matching indexes for a right diagonal win
-WIN_COMBINATIONS.each {|win_combo|
+WIN_COMBINATIONS.each do |win_combo|
     index_0 = win_combo[0]
     index_1 = win_combo[1]
     index_2 = win_combo[2]
