@@ -12,7 +12,9 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 #  returns falsey for an empty board (FAILED - 1)
+#  returns falsey for a draw
 if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+if board = !WIN_COMBINATIONS
 false
 end
 end
