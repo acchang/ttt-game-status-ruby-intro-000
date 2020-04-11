@@ -5,7 +5,7 @@ end
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
-  [0,1,2], # Top row
+  [0,1,2],
   [3,4,5],
   [6,7,8],
   [0,3,6],
@@ -21,13 +21,13 @@ def won?(board)
     index_4 = win_combo[4]
     index_5 = win_combo[5]
 
-    position_1 = board[index_3]
-    position_2 = board[index_4]
-    position_3 = board[index_5]
+    position_3 = board[index_3]
+    position_4 = board[index_4]
+    position_5 = board[index_5]
 
-    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    if position_3 == "X" && position_4 == "X" && position_5 == "X"
       return win_combo
-    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+    elsif position_3 == "O" && position_4 == "O" && position_5 == "O"
       return win_combo
     end
    false
